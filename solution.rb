@@ -6,7 +6,7 @@ get '/' do
     #else
     #   erb "<h1>Hola #{params[:nombre]}!</h1>"
     #end
-    @nombre = params[:nombre]
+    #@nombre = params[:nombre]
     erb :index
 end    
 
